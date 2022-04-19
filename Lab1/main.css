@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+/* INCIO DEL HEADER y NAV */
+.bloqueHeader{
+    width: 100%;
+    height: 50px;
+    background-color: #0a2ff1;
+}
+header{
+    padding:10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav{
+    width: 70%;
+    display: block;
+}
+
+ul{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    color: #04146c;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+ul li a:hover{
+    font-weight: bold;
+}
+
+#logo{
+    vertical-align: middle;
+    width: 5%;
+}
+
+/* FIN  DEL HEADER y NAV */
+
+/* comienzo de BANNER */
+.main-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-banner h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #0a2ff1;
+    font-size: 96px;
+    margin: 0;
+}
+
+.main-banner h2{
+    font-family: 'Roboto' , serif;
+    font-size: 34.66px;
+    font-weight: 400;
+    color: #04146c;
+}
+/* FIN BANNER */
+
+/* COMIENZO advantages  */
+.advantages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -100px;
+}
+.advantages-title{
+    font-family: 'Roboto Slab' , serif;
+    font-weight: bold;
+    font-size: 45.33px;
+    color: #0a2ff1;
+}
+
+.advantages-subtitle{
+    font-family: 'Roboto' , serif;
+    font-weight: bold;
+    color: #04146c;
+    font-size: 24px;
+}
+
+.advantages-parrf{
+    font-family: 'Roboto' , serif;
+    font-weight: 400;
+    color: #04146c;
+    font-size: 24px;
+}
+/* FIN DE SECCION ADVANTAGES */
+/* comienzo de footer */
+footer{
+    background-color: #0a2ff1;
+    width: 100%;
+    height: 250px;
+    /* padding-top: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer img{
+    width: 10%;
+    display: block;
+}

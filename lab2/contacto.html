@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <!-- Google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<!-- Linkeo de CSS -->
+<link rel="stylesheet" href="main.css">
+</head> 
+<body>
+<div class="conteiner">
+    <hr>
+    <header>
+        <img src="/Lab1/recursos-Desafio6/M5-logo-azul.svg" alt="Logo" id="logo" >
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <section class="consulta">
+        <h2>¿Querés que nos contactemos con vos?</h2>
+        <p>Dejanos tu consulta:</p>
+    </section>
+    
+        <form action="" method="get">
+            <label for="Nombre"> Nombre completo
+                <input type="text" name="Nombre" required>
+            </label>
+
+            <label for="email">Email
+                <input type="email" required name="email">
+            </label>
+
+            <label for="comentarios">Comentarios
+                <input type="text-area" name="comentarios">
+            </label>
+            <div class="btn">
+                <input type="reset" value="Resetear" class="btn-basic btn-basic--ress">
+                <input type="submit" value="Enviar" class="btn-basic btn-basic--env">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
